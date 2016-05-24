@@ -1,0 +1,17 @@
+{% assign layout_category = site.layouts_dir | split: '/' | last %}
+{% assign context = include.context | default: "left" %}
+{% if context == "left" %}
+    {% assign sidebarConfig = site.jaytch.layout.template[layout_category].sidebar_left %}
+{% else %}
+    {% assign sidebarConfig = site.jaytch.layout.template[layout_category].sidebar_right %}
+{% endif %}
+
+{% if sidebarConfig.sidebars %}
+{% for sb in sidebarConfig.sidebars %}
+    {% unless forloop.first %}<hr/>{% endunless %}
+    {% assign providerConfig = site.jaytch.layout.sidebars[sb] %}
+    {% assign providerType = providerConfig.type | default: sb %}
+    {% assign sbInclude = "jaytch/sidebar/" | append: providerType | append: ".liquid" %}
+    {% include {{ sbInclude }} context=context config=providerConfig sidebarName=sb %}
+{% endfor %}
+{% endif %}
