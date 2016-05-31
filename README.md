@@ -1,4 +1,8 @@
-# Jaytch
+# New Site!
+
+My new site based on, Jaytch. Projects and updates will be posted here.
+
+## Jaytch
 
 The Jekyll helper. An easier way to blog.
 
