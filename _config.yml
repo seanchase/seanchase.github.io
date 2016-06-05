@@ -51,7 +51,7 @@ jaytch:
   description: > # An awesome description of your blog or site.
     This site is for blog posts and updates for my projects.
 
-  page_404: sticky # badge | dog | droids | glass | link | milk | monster | potty | shrug | sticky | tweet | zork
+  page_404: link # badge | dog | droids | glass | link | milk | monster | potty | shrug | sticky | tweet | zork
   tweetHash:     #"jaytch #blogs #OSS" # don't hash first tag
   tweetShoutOut: #"GetJaytch"
 
@@ -68,7 +68,7 @@ jaytch:
     customcss: custom.css   # loaded after theme css files
     customjs:  custom.js    # loaded after theme js files
     framework: bootstrap-v3 # default | bootstrap-v3
-    theme: superhero        # When used by bootstrap-v3, valid values are:
+    theme: default        # When used by bootstrap-v3, valid values are:
                               #    default | cerulean | cosmo | cyborg |
                               #    darkly | flatly | journal | lumen | paper |
                               #    readable | sandstone | simplex | slate |
