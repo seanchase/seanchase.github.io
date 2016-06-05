@@ -68,7 +68,7 @@ jaytch:
     customcss: custom.css   # loaded after theme css files
     customjs:  custom.js    # loaded after theme js files
     framework: bootstrap-v3 # default | bootstrap-v3
-    theme: default            # When used by bootstrap-v3, valid values are:
+    theme: slate            # When used by bootstrap-v3, valid values are:
                               #    default | cerulean | cosmo | cyborg |
                               #    darkly | flatly | journal | lumen | paper |
                               #    readable | sandstone | simplex | slate |
