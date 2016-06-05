@@ -17,7 +17,7 @@ url: "https://seanchase.github.io" # the base hostname & protocol for your site
 twitter_username: # overridden in  jaytch.authors, but some other templates may use this
 github_username:  seanchase # overridden in  jaytch.authors, but some other templates may use this
 
-layouts_dir: ./_layouts/blog # valid values are:
+layouts_dir: ./_layouts/project # valid values are:
       #    blog       - what 99% of folks will use
       #    book       - an open-source book
       #    daily      - a post-a-day site
@@ -28,12 +28,19 @@ layouts_dir: ./_layouts/blog # valid values are:
 # Build settings
 markdown: kramdown
 
-
-#collections
-collections:
-  projects:
-    output: true
-    permalink: /projects/:path/
+#collections:
+#  projects:
+#    output: true
+#    permalink: /projects/:path/
+#
+#defaults:
+#  -
+#    scope:
+#      path: "projects"
+#      type: "pages" # previously `page` in Jekyll 2.2.
+#    values:
+#      layout: "project" # overrides previous default layout
+#      author: "Mr. Hyde"
 
 # Jaytch settings
 jaytch:
@@ -83,22 +90,6 @@ jaytch:
           hideForHome: false
           hideForPage: false
           hideForPost: false
-
-      book:
-        nav_links: [ # the main menu links at the top of every page
-          "The Book|/index",
-          "The Author|/author",
-          "The Camps|/contributors",
-          "The Blog|/blog",
-          "The Store|/store"
-        ]
-      daily:
-        nav_links: [ # the main menu links at the top of every page
-          "Archive|/archive",
-          "Tags|/tags",
-          "Gallery|/gallery",
-          "Commer¢e|/store"
-        ]
       project:
         title: BYRD
         tagline: Give'm the BYRD!
