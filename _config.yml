@@ -28,6 +28,7 @@ layouts_dir: ./_layouts/project # valid values are:
 # Build settings
 markdown: kramdown
 
+<<<<<<< HEAD
 #collections:
 #  projects:
 #    output: true
@@ -42,6 +43,8 @@ markdown: kramdown
 #      layout: "project" # overrides previous default layout
 #      author: "Mr. Hyde"
 
+=======
+>>>>>>> parent of f1feb53... Updated _config.yml
 # Jaytch settings
 jaytch:
   version : 0.1.0
