@@ -164,47 +164,29 @@ jaytch:
         quote: # use the page's quote
 
   authors:
-    admin:
+    seanchase:
       name:       Sean M. Chase
       alias:      seanchase
+<<<<<<< HEAD
       image:      images/contributors/Chase_headshot.png
       role:       Sailor, Supervisor, and Mentor in th U.S. Navy
+=======
+      image:      images/contributors/groundh0g.png
+      role:       Sailor, Supervisor, and Mentor in th U.S. Navy and also Programmer/IT POC
+>>>>>>> parent of 9dbf20e... personal pictures and config update
       bio: > # brief description goes here
-        Sailor, Supervisor, and Mentor in th U.S.Navy. Also, he types on keyboards and sometimes that makes computers do cool things.
+        I'm in the Navy. I type on keyboards and sometimes that makes the computers do things.
       email:      seanspassdownlog@gmail.com
-      website:    seanchase.github.io
+      website:    https://seanchase.github.io
       twitter:    #groundh0g
       facebook:   #groundh0g
       youtube:    #groundh0g
       instagram:  #groundh0g72
       #googleplus: #groundh0g
-      github:     seanchase
+      github:     #groundh0g
       deviant:    #groundh0g
       linkedin:   #groundh0g
       pinterest:  #groundh0g
-    groundh0g:
-      name:       Joseph Hall
-      alias:      groundh0g
-      image:      images/contributors/groundh0g.png
-      role:       Programmer / Writer
-      bio: > # brief description goes here
-        Joe lives with his wife and three daughters in Newnan, Georgia. Every
-        summer, Joe teaches high school students how to write games during an
-        intense weeklong course in North Carolina for Landry Academy. In his free
-        time, Joe dabbles in sketching, cartooning, and creating 3D models. When
-        you see his artistic creations, you’ll understand why he makes his living
-        as a programmer.
-      email:      hello@codetopia.com
-      website:    codetopia.com
-      twitter:    groundh0g
-      facebook:   groundh0g
-      youtube:    groundh0g
-      instagram:  groundh0g72
-      #googleplus: groundh0g
-      github:     groundh0g
-      deviant:    groundh0g
-      linkedin:   groundh0g
-      pinterest:  groundh0g
     plusjade:
       name:       Jade Dominguez
       alias:      plusjade
@@ -217,22 +199,22 @@ jaytch:
         any of my other projects; a testament to the importance of being user and
         usability driven.
       email:      plusjade@gmail.com
-      website:    plusjade.com
+      website:    http://plusjade.com/
       twitter:    plusjade
       github:     plusjade
     # FIXME: actually use admin alias as default in posts (and pages?)
-#    admin:        # the "admin" author alias is reserved, used as default when no author is specified
-#      name:       Administrator
-#      alias:      admin
-#      showInList: false #true # you can hide this little guy
-#      image:      images/contributors/admin.png
-#      role:       Filth-Dimensional Being
-#      bio: > # brief description goes here
-#        The "admin" alias is a reserved account, used as default when no author is specified.<br/>
-#        You can hide this account by adding "showInList: false" to the "_config.yml" file.
-#      email:      hello@jaytch.org
-#      website:    http://jaytch.org/
-#      twitter:    GetJaytch
+    admin:        # the "admin" author alias is reserved, used as default when no author is specified
+      name:       Administrator
+      alias:      admin
+      showInList: true # you can hide this little guy
+      image:      images/contributors/admin.png
+      role:       Filth-Dimensional Being
+      bio: > # brief description goes here
+        The "admin" alias is a reserved account, used as default when no author is specified.<br/>
+        You can hide this account by adding "showInList: false" to the "_config.yml" file.
+      email:      hello@jaytch.org
+      website:    http://jaytch.org/
+      twitter:    GetJaytch
 
   analytics : # settings for analytics, set 'provider' to the analytics provider you want to use
     provider : google # Set 'provider' to false to turn analytics off entirely
