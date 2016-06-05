@@ -28,6 +28,13 @@ layouts_dir: ./_layouts/blog # valid values are:
 # Build settings
 markdown: kramdown
 
+
+#collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
 # Jaytch settings
 jaytch:
   version : 0.1.0
