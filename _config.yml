@@ -68,7 +68,7 @@ jaytch:
     customcss: custom.css   # loaded after theme css files
     customjs:  custom.js    # loaded after theme js files
     framework: bootstrap-v3 # default | bootstrap-v3
-    theme: slate            # When used by bootstrap-v3, valid values are:
+    theme: superhero        # When used by bootstrap-v3, valid values are:
                               #    default | cerulean | cosmo | cyborg |
                               #    darkly | flatly | journal | lumen | paper |
                               #    readable | sandstone | simplex | slate |
@@ -168,7 +168,7 @@ jaytch:
       name:       Sean M. Chase
       alias:      seanchase
       image:      images/contributors/Chase_headshot.png
-      role:       Sailor, Supervisor, and Mentor in th U.S.Navy and also Programmer/IT POC
+      role:       Sailor, Supervisor, and Mentor in th U.S. Navy
       bio: > # brief description goes here
         Sailor, Supervisor, and Mentor in th U.S.Navy. Also, he types on keyboards and sometimes that makes computers do cool things.
       email:      seanspassdownlog@gmail.com
